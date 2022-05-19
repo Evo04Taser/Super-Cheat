@@ -1,0 +1,10 @@
+name: Power Source
+type: PowerSource
+health: 2000
+category: power
+laserRange: 30
+maxNodes: 1500
+requirements: [
+]
+research: item-source2
+buildTime: 0

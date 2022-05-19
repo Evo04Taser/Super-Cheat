@@ -1,0 +1,49 @@
+type: PowerTurret
+name: Super Turret
+health: 99999999
+size: 1
+shots: 70
+reloadTime: 0.000001
+spread: 15
+range: 400
+ammoUseEffect: none
+coolantMultiplier: 25
+cooldown: 0.000000001
+maxAmmo: 40
+rotateSpeed: 25
+shootSound: shootBig
+shootSoundVolume: 0.3
+cooldownTime: 0.01
+powerUse: 0
+recoilAmount: 0
+outlineIcon: false
+shootType: {
+  type: BasicBulletType
+  speed: 20
+  damage: 99999999
+  pierce: true
+  pierceCap: 100
+  lifetime: 70
+  width: 5
+  height: 9
+  homingRange: 100
+  homingPower: 45
+  frontColor: c180ff
+  backColor: 736ad4
+  shootEffect: shootBig
+  smokeEffect: none
+  hitEffect: hitBulletSmall
+  despawnEffect: shootSmallSmoke
+  splashDamage: 99999999
+  splashDamageRadius: 350
+  collidesGround: false
+  sprite: bullet
+  shrinkY: 0.12
+  incendChance: 1000
+  incendSpread: 10
+  incendAmount: 1000
+}
+requirements: [
+]
+category: turret
+research: shield

@@ -1,0 +1,16 @@
+type: CoreBlock
+name: Serpulo Super Core
+unloadable: true
+hasItems: true 
+rebuildable: false
+size: 5
+health: 99999999
+armor: 99999999
+itemCapacity: 1000000
+canOverdrive: true
+requirements: [
+]
+category: effect
+research: core-shard
+unitType: ship
+unitCapModifier: 50

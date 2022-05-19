@@ -1,0 +1,21 @@
+name: Super Overdrive Dome
+type: OverdriveProjector
+health: 99999999
+size: 3
+speedBoost: 126
+speedBoostPhase: 125
+range: 250
+phaseRangeBoost: 50
+consumes: {
+  items: {
+    items: [
+      graphite/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+]
+category: effect
+research: wall

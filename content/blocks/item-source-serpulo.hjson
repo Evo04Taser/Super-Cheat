@@ -1,0 +1,27 @@
+name: Serpulo Item Source 
+type: GenericCrafter
+health: 2000
+category: distribution
+craftTime: 6
+requirements: [
+]
+research: core-shard
+buildTime: 0
+outputItems: [
+  metaglass/100
+  copper/100
+  lead/100
+  titanium/100
+  graphite/100
+  silicon/100
+  surge-alloy/100
+  phase-fabric/100
+  thorium/100
+  plastanium/100
+  sand/1
+  coal/1
+  scrap/1
+  spore-pod/1
+  blast-compound/1
+  pyratite/1
+]
