@@ -1,0 +1,88 @@
+type: flying
+name: Erekir Super Ship
+speed: 8
+isEnemy: false
+coreUnitDock: true
+accel: 0.25
+drag: 0.0001
+mineSpeed: 9999
+mineTier: 9999999
+health: 99999999
+mineWalls: true
+itemCapacity: 999999
+rotateSpeed: 21
+hitSize: 12
+isCounted: false
+armor: 99999999
+payloadCapacity: 10
+buildSpeed: 99999
+rotateShooting: true
+commandLimit: 30
+engineOffset: 7
+flying: true
+immunities: [burning, freezing, unmoving, melting, corroded, blasted, shocked, electrified, sapped, spore-slowed, tarred, disarmed, muddy, slow]
+abilities: [
+     {
+        type: ForceFieldAbility
+        radius: 150
+        cooldown: 1
+        regen: 10000
+     },
+     {
+        type: RepairFieldAbility
+        amount: 15
+        range: 150
+        reload: 1
+     },
+     {
+        type: ArmorPlateAbility
+        color: 9882fa
+        healthMultiplier: 10000
+     },
+     {
+        type: EnergyFieldAbility
+        damage: 99999999
+        healPercent: 250
+     },
+     {
+        type: RegenAbility
+        percentAmount: 100
+        Amount: 100
+     },
+     {
+        type: UnitSpawnAbility
+        unit: avert
+        spawnTime: 300
+      }
+]
+weapons: [
+    {
+        top: false
+        widthSinMag: 0.11
+        reload: 1
+        x: 4
+        y: 4
+        rotate: false
+        shootY: 0
+        mirror: true
+        useAmmo: false
+        bullet: {
+            type: BasicBulletType
+            damage: 99999999
+            speed: 35
+            splashDamageRadius: 45
+            splashDamage: 99999999
+            homingRange: 25
+            homingPower: 40
+            frontColor: c180ff
+            backColor: 736ad4
+            width: 4
+            height: 9
+			   tileDamageMultiplier: 10
+            lifetime: 15
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 100
+        }
+    }
+]
