@@ -60,7 +60,7 @@ weapons: [
         top: false
         rotate: true
         rotateSpeed: 20
-        shots: 10
+        shots: 1
         useAmmo: false
         inaccuracy: 0
         spacing: 2
