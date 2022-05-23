@@ -85,9 +85,6 @@ weapons: [
             pierce: true
             pierceBuilding: true
             pierceCap: 100
-            incendChance: 100
-            incendSpread: 2
-            incendAmount: 7
             sprite: bullet
             fragBullet: {
               type: BasicBulletType
