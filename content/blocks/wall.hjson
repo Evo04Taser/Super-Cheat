@@ -2,7 +2,6 @@ type: Wall
 name: Super Wall
 category: defense
 health: 99999999
-armor: 99999999
 size: 2
 lightningChance: 120
 lightningDamage: 9999999
