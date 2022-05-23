@@ -27,20 +27,28 @@ abilities: [
      },
      {
         type: RepairFieldAbility
-        amount: 15
+        amount: 99999999
         range: 150
         reload: 1
      },
      {
         type: EnergyFieldAbility
         damage: 99999999
-        healPercent: 250
+        range: 150
+        reload: 1
      },
      {
         type: UnitSpawnAbility
         unit: zenith
         spawnTime: 300
-      }
+      },
+      {
+        type: ShieldRegenFieldAbility
+        amount: 99999999
+        max: 99999999
+        reload: 1
+        range: 150
+       }
 ]
 weapons: [
     {
@@ -70,8 +78,8 @@ weapons: [
             height: 9
             fragBullets: 35
             fragVelocityMax: 1
-	         fragVelocityMin: 1
-			   tileDamageMultiplier: 10
+	    fragVelocityMin: 1
+            tileDamageMultiplier: 10
             lifetime: 15
             pierce: true
             pierceBuilding: true
@@ -82,23 +90,23 @@ weapons: [
             sprite: bullet
             fragBullet: {
               type: BasicBulletType
-	           collidesAir: false
+	      collidesAir: false
               speed: 20
               damage: 99999999
-	           lifetime: 15
+              lifetime: 15
               width: 4
               height: 9
               splashDamageRadius: 45
               splashDamage: 99999999
               homingRange: 25
-              homingPower: 40
-	           frontColor: c180ff
-	           backColor: 736ad4
-	           despawnEffect: shootSmallSmoke
-	           pierce: true
+              homingPower: 4
+              frontColor: c180ff
+              backColor: 736ad4
+              despawnEffect: shootSmallSmoke
+              pierce: true
               pierceCap: 45
-	           pierceBuilding: true
-	           sprite: bullet
+              pierceBuilding: true
+              sprite: bullet
            }
         }
     }
