@@ -1,5 +1,5 @@
 type: flying
-name: Serpulo Super Ship
+name: Super Ship
 speed: 8
 accel: 0.25
 drag: 0.0001
@@ -32,19 +32,9 @@ abilities: [
         reload: 1
      },
      {
-        type: ArmorPlateAbility
-        color: 9882fa
-        healthMultiplier: 10000
-     },
-     {
         type: EnergyFieldAbility
         damage: 99999999
         healPercent: 250
-     },
-     {
-        type: RegenAbility
-        percentAmount: 100
-        Amount: 100
      },
      {
         type: UnitSpawnAbility
