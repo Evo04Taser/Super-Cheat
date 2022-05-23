@@ -1,8 +1,7 @@
-type: AutoDoor
+type: Door
 name: Super Door
 category: defense
 health: 99999999
-armor: 99999999
 size: 2
 lightningChance: 120
 lightningDamage: 9999999
