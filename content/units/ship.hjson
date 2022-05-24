@@ -26,6 +26,7 @@ abilities: [
         radius: 150
         cooldown: 1
         regen: 10000
+        max: 99999999
      },
      {
         type: RepairFieldAbility
@@ -38,6 +39,8 @@ abilities: [
         damage: 99999999
         range: 150
         reload: 1
+        useAmmo: false
+        maxTargets: 100
      },
      {
         type: UnitSpawnAbility
