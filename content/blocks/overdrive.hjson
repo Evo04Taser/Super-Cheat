@@ -9,7 +9,7 @@ phaseRangeBoost: 50
 consumes: {
   items: {
     items: [
-      graphite/1
+      copper/1
     ]
     booster: true
 	optional: true
