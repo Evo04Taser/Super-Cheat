@@ -19,10 +19,4 @@ outputItems: [
   phase-fabric/100
   thorium/100
   plastanium/100
-  sand/1
-  coal/1
-  scrap/1
-  spore-pod/1
-  blast-compound/1
-  pyratite/1
 ]
