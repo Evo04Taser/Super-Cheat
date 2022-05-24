@@ -5,7 +5,7 @@ category: distribution
 craftTime: 6
 requirements: [
 ]
-research: core-shard
+research: item-source2
 buildTime: 0
 outputItems: [
   metaglass/100
