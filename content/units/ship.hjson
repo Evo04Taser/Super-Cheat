@@ -16,6 +16,8 @@ buildSpeed: 99999
 rotateShooting: true
 commandLimit: 30
 engineOffset: 6
+shots: 5
+spread: 0
 flying: true
 immunities: [burning, freezing, unmoving, melting, corroded, blasted, shocked, electrified, sapped, spore-slowed, tarred, disarmed, muddy, slow]
 abilities: [
@@ -69,15 +71,15 @@ weapons: [
             type: BasicBulletType
             damage: 99999999
             speed: 35
-            splashDamageRadius: 45
+            splashDamageRadius: 100
             splashDamage: 99999999
-            homingRange: 25
-            homingPower: 40
+            homingRange: 5000
+            homingPower: 100
             frontColor: c180ff
             backColor: 736ad4
             width: 4
             height: 9
-            fragBullets: 35
+            fragBullets: 100
             fragVelocityMax: 1
 	    fragVelocityMin: 1
             tileDamageMultiplier: 10
@@ -94,10 +96,10 @@ weapons: [
               lifetime: 15
               width: 4
               height: 9
-              splashDamageRadius: 45
+              splashDamageRadius: 100
               splashDamage: 99999999
-              homingRange: 25
-              homingPower: 4
+              homingRange: 5000
+              homingPower: 100
               frontColor: c180ff
               backColor: 736ad4
               despawnEffect: shootSmallSmoke
