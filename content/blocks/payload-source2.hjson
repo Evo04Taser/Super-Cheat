@@ -1,5 +1,5 @@
 type: PayloadSource
-name: Payload Source
+name: Super Payload Source
 health: 2000
 size: 5
 category: units
