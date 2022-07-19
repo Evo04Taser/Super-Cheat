@@ -1,0 +1,12 @@
+name: Super Beam Node
+type: BeamNode
+health: 2000
+category: power
+laserRange: 30
+consumes: {
+  powerBuffered: 1000000
+}
+requirements: [
+]
+research: power-source2
+buildTime: 0
