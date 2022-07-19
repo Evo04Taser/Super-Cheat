@@ -18,8 +18,8 @@ outputItems: [
   surge-alloy/100
   beryllium/100
   carbide/100
-  dormant-cyst/100
-  fissile-matter/100
+  //dormant-cyst/100
+  //fissile-matter/100
   oxide/100
   tungsten/100
 ]
