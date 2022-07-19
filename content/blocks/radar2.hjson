@@ -1,6 +1,6 @@
 type: Radar
 name: Super Radar
-category: defense
+category: effect
 health: 2000
 size: 1
 absorbLasers: true
