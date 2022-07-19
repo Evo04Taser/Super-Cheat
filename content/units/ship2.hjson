@@ -16,6 +16,7 @@ health: 99999999
 itemCapacity: 999999
 rotateSpeed: 21
 hitSize: 12
+envDisabled: 0
 buildBeamOffset: 8
 payloadCapacity: 10
 pickupUnits: true
@@ -54,7 +55,7 @@ abilities: [
      },
      {
         type: UnitSpawnAbility
-        unit: zenith
+        unit: avert
         spawnTime: 300
       },
       {
@@ -84,10 +85,10 @@ weapons: [
         fractionRepairSpeed: 5
         targetUnits: true
         targetBuildings: true
-        autoTarget: true
+        autoTarget: false
         controllable: true
         bullet: {
-            maxRange: 300
+            maxRange: 200
         }
     }
 ]
