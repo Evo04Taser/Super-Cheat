@@ -1,0 +1,21 @@
+name: Erekir Liquids Source
+type: GenericCrafter
+health: 2000
+category: liquid
+craftTime: 6
+liquidCapacity: 10000
+consumes: {
+}
+requirements: [
+]
+research: liquid-source2
+buildTime: 0
+outputLiquids: [
+  arkycite/100
+  cyanogen/100
+  gallium/100
+  hydrogen/100
+  neoplasm/100
+  nitrogen/100
+  ozone/100
+]

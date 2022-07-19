@@ -1,0 +1,18 @@
+name: Serpulo Liquids Source
+type: GenericCrafter
+health: 2000
+category: liquid
+craftTime: 6
+liquidCapacity: 10000
+consumes: {
+}
+requirements: [
+]
+research: liquid-source2
+buildTime: 0
+outputLiquids: [
+  water/100
+  cryofluid/100
+  slag/100
+  oil/100
+]
