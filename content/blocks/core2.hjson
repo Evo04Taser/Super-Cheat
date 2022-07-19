@@ -1,16 +1,16 @@
 type: CoreBlock
-name: Super Serpulo Core
+name: Super Erekir Core
 unloadable: true
 hasItems: true 
-size: 5
+size: 6
 health: 99999999
 itemCapacity: 1000000
-canOverdrive: true
-thrusterLength: 10
+thrusterLength: 12
+incinerateNonBuildable: true
 requirements: [
 ]
 category: effect
-research: core-shard
+research: core-bastion
 buildTime: 0
-unitType: ship
+unitType: ship2
 unitCapModifier: 50
