@@ -13,9 +13,9 @@ buildTime: 0
 outputLiquids: [
   arkycite/100
   cyanogen/100
-  gallium/100
+  //gallium/100
   hydrogen/100
-  neoplasm/100
+  //neoplasm/100
   nitrogen/100
   ozone/100
 ]
