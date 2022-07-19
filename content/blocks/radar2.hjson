@@ -1,0 +1,17 @@
+type: Radar
+name: Super Radar
+category: defense
+health: 2000
+size: 1
+absorbLasers: true
+fogRadius: 200
+discoveryTime: 30
+rotateSpeed: 5
+consumes: {
+}
+requirements: [
+]
+research: wall
+buildVisibility: fogOnly
+buildCostMultiplier: 0.0001
+
