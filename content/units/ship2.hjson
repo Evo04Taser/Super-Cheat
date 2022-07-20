@@ -1,5 +1,5 @@
 type: flying
-name: Test Ship
+name: Super Erekir Ship
 coreUnitDock: true
 controller: BuilderAI
 isEnemy: false
