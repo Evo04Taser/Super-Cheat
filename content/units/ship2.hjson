@@ -79,8 +79,8 @@ weapons: [
         shootY: 0
         mirror: true
         aimDst: 0
-        laserColor: 4dff3d
-        healColor: b5ffae
+        laserColor: c180ff
+        healColor: 786ad4
         repairSpeed: 80
         fractionRepairSpeed: 5
         targetUnits: true
