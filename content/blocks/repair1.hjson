@@ -1,0 +1,22 @@
+name: Super Unit Healer
+type: RepairTurret
+health: 99999999
+repairRadius: 150
+repairSpeed: 100
+acceptCoolant: true
+coolantUse: 0.1
+hasLiquids: true
+coolantMultiplier: 5
+laserColor: c180ff
+laserTopColor: 6cd950
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.1
+    optional: true
+  }
+}
+requirements: [
+]
+category: units
+research: mend

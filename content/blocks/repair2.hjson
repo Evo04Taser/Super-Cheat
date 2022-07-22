@@ -1,0 +1,13 @@
+name: Super Unit Regenerator
+type: RepairTower
+health: 99999999
+range: 150
+size: 2
+refreshInterval: 0.06
+healAmount: 100
+consumes: {
+}
+requirements: [
+]
+category: units
+research: repair1

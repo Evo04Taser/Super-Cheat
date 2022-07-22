@@ -1,0 +1,25 @@
+type: ShieldWall
+name: Super Shielded Wall
+category: defense
+health: 99999999
+armor: 99999999
+shieldHealth: 99999999
+breakCooldown: 1
+regenSpeed: 99999999
+size: 2
+glowColor: 34b514
+lightningChance: 120
+lightningDamage: 9999999
+lightningLength: 250
+absorbLasers: true
+chanceDeflect: 120
+consumesPower: false
+outputsPower: false
+conductivePower: true
+hasPower: true
+consumes: {
+}
+requirements: [
+]
+research: wall
+buildCostMultiplier: 0.0001
