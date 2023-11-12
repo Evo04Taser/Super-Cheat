@@ -2,7 +2,7 @@ type: PowerTurret
 name: Super Turret
 health: 999999999
 size: 1
-reloadTime: 1
+reload: 5
 range: 999
 ammoUseEffect: none
 rotateSpeed: 99
