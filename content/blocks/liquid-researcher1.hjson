@@ -11,11 +11,11 @@ requirements: [
 research: liquid-source2
 buildTime: 0
 outputLiquids: [
-  arkycite/100
-  cyanogen/100
-  //gallium/100
-  hydrogen/100
-  neoplasm/100
-  nitrogen/100
-  ozone/100
+  arkycite/200
+  cyanogen/200
+  //gallium/200
+  hydrogen/200
+  //neoplasm/200
+  nitrogen/200
+  ozone/200
 ]

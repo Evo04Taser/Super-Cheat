@@ -1,9 +1,9 @@
 name: Erekir Item Source
 type: GenericCrafter
-health: 2000
+health: 999999999
 category: distribution
 craftTime: 6
-itemCapacity: 1000
+itemCapacity: 1000000
 consumes: {
 }
 requirements: [
@@ -11,15 +11,15 @@ requirements: [
 research: item-source2 
 buildTime: 0
 outputItems: [
-  thorium/100
-  silicon/100
-  graphite/100
-  phase-fabric/100
-  surge-alloy/100
-  beryllium/100
-  carbide/100
-  //dormant-cyst/100
-  //fissile-matter/100
-  oxide/100
-  tungsten/100
+  thorium/500
+  silicon/500
+  graphite/500
+  phase-fabric/500
+  surge-alloy/500
+  beryllium/1000
+  carbide/1000
+  //dormant-cyst/500
+  //fissile-matter/500
+  oxide/500
+  tungsten/500
 ]

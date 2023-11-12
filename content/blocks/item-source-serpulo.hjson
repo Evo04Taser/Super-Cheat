@@ -1,22 +1,22 @@
 name: Serpulo Item Source 
 type: GenericCrafter
-health: 2000
+health: 999999999
 category: distribution
 craftTime: 6
-itemCapacity: 10000
+itemCapacity: 100000
 requirements: [
 ]
 research: item-source2
 buildTime: 0
 outputItems: [
-  metaglass/100
-  copper/100
-  lead/100
-  titanium/100
-  graphite/100
-  silicon/100
-  surge-alloy/100
-  phase-fabric/100
-  thorium/100
-  plastanium/100
+  metaglass/500
+  copper/500
+  lead/500
+  titanium/500
+  graphite/500
+  silicon/500
+  surge-alloy/50
+  phase-fabric/500
+  thorium/500
+  plastanium/500
 ]

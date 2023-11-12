@@ -11,8 +11,8 @@ requirements: [
 research: liquid-source2
 buildTime: 0
 outputLiquids: [
-  water/100
-  cryofluid/100
-  slag/100
-  oil/100
+  water/200
+  cryofluid/200
+  slag/200
+  oil/200
 ]

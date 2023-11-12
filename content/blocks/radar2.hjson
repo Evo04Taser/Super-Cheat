@@ -1,17 +1,16 @@
 type: Radar
 name: Super Radar
 category: effect
-health: 2000
+health: 999999999
 size: 1
 absorbLasers: true
-fogRadius: 200
-discoveryTime: 30
-rotateSpeed: 5
+fogRadius: 9999
+discoveryTime: 0
+rotateSpeed: 1
 consumes: {
 }
 requirements: [
 ]
 research: wall
 buildVisibility: fogOnly
-buildCostMultiplier: 0.0001
 

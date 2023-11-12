@@ -1,15 +1,14 @@
 type: Door
 name: Super Door
 category: defense
-health: 99999999
+health: 999999999
 size: 2
-lightningChance: 120
-lightningDamage: 9999999
+lightningChance: 200
+lightningDamage: 999999999
 lightningLength: 250
 absorbLasers: true
-chanceDeflect: 120
+chanceDeflect: 200
 requirements: [
 ]
 research: payload-source2
-buildCostMultiplier: 0.0001
 

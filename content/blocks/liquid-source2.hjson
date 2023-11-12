@@ -1,6 +1,6 @@
 name: Super Liquid Source
 type: LiquidSource
-health: 2000
+health: 999999999
 category: liquid
 requirements: [
 ]
