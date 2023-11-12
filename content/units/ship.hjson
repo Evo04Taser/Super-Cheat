@@ -2,17 +2,17 @@ type: flying
 name: Super Serpulo Ship
 speed: 8
 accel: 0.25
-drag: 0.0001
+drag: 0
 mineSpeed: 9999
 mineTier: 9999999
-health: 99999999
-itemCapacity: 999999
+health: 999999999
+itemCapacity: 9999999
 rotateSpeed: 21
 hitSize: 11
 isCounted: false
-armor: 99999999
+armor: 999999999
 payloadCapacity: 10
-buildSpeed: 99999
+buildSpeed: 9999999
 rotateShooting: true
 commandLimit: 30
 engineOffset: 6
@@ -23,36 +23,31 @@ immunities: [burning, freezing, unmoving, melting, corroded, blasted, shocked, e
 abilities: [
      {
         type: ForceFieldAbility
-        radius: 150
+        radius: 300
         cooldown: 1
-        regen: 99999999
-        max: 99999999
+        regen: 999999999
+        max: 999999999
      },
      {
         type: RepairFieldAbility
-        amount: 99999999
-        range: 150
+        amount: 999999999
+        range: 300
         reload: 1
      },
      {
         type: EnergyFieldAbility
-        damage: 99999999
-        range: 150
+        damage: 999998999
+        range: 300
         reload: 1
         useAmmo: false
-        maxTargets: 100
-     },
-     {
-        type: UnitSpawnAbility
-        unit: zenith
-        spawnTime: 300
-      },
+        maxTargets: 1000
+     }
       {
         type: ShieldRegenFieldAbility
-        amount: 99999999
-        max: 99999999
+        amount: 999999999
+        max: 999999999
         reload: 1
-        range: 150
+        range: 300
        }
 ]
 weapons: [
@@ -95,19 +90,19 @@ weapons: [
               type: BasicBulletType
 	      collidesAir: false
               speed: 20
-              damage: 99999999
+              damage: 999999999
               lifetime: 15
               width: 4
               height: 9
               splashDamageRadius: 100
-              splashDamage: 99999999
+              splashDamage: 999999999
               homingRange: 5000
               homingPower: 100
               frontColor: c180ff
               backColor: 736ad4
               despawnEffect: shootSmallSmoke
               pierce: true
-              pierceCap: 45
+              pierceCap: 99
               pierceBuilding: true
               sprite: bullet
            }

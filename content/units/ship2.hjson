@@ -9,12 +9,12 @@ mineFloor: false
 mineHardnessScaling: false
 speed: 8
 accel: 0.25
-drag: 0.08
+drag: 0
 groundLayer: 120
 mineSpeed: 9999
 mineTier: 9999999
-health: 99999999
-itemCapacity: 999999
+health: 999999999
+itemCapacity: 9999999
 rotateSpeed: 21
 hitSize: 12
 envDisabled: 0
@@ -24,9 +24,9 @@ vulnerableWithPayloads: false
 fogRadius: 50
 targetable: false
 engineSize: 3.4
-armor: 99999999
+armor: 999999999
 payloadCapacity: 10
-buildSpeed: 99999
+buildSpeed: 9999999
 rotateShooting: true
 engineOffset: 8.00
 flying: true
@@ -60,35 +60,30 @@ engines: [
 abilities: [
      {
         type: ForceFieldAbility
-        radius: 150
+        radius: 300
         cooldown: 1
-        regen: 99999999
-        max: 99999999
+        regen: 999999999
+        max: 999999999
      },
      {
         type: RepairFieldAbility
-        amount: 99999999
-        range: 150
+        amount: 999999999
+        range: 300
         reload: 1
      },
      {
         type: EnergyFieldAbility
-        damage: 99999999
-        healPercent: 250
-        range: 150
+        damage: 999999999
+        healPercent: 999
+        range: 300
         reload: 1
      },
-     {
-        type: UnitSpawnAbility
-        unit: avert
-        spawnTime: 300
-      },
       {
          type: ShieldRegenFieldAbility
-         amount: 99999999
-         max: 99999999
+         amount: 999999999
+         max: 999999999
          reload: 1
-         range: 150
+         range: 300
        }
 ]
 weapons: [
@@ -96,7 +91,7 @@ weapons: [
         type: RepairBeamWeapon 
         x: 4.75
         y: 4.75
-        reload: 5
+        reload: 1
         widthSinMag: 0.11
         rotate: false
         beamWidth: 0.7
@@ -106,14 +101,14 @@ weapons: [
         aimDst: 0
         laserColor: c180ff
         healColor: 786ad4
-        repairSpeed: 80
-        fractionRepairSpeed: 5
+        repairSpeed: 1000
+        fractionRepairSpeed: 1
         targetUnits: true
         targetBuildings: true
         autoTarget: false
         controllable: true
         bullet: {
-            maxRange: 200
+            maxRange: 300
         }
     }
 ]
