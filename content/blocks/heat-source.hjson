@@ -3,7 +3,7 @@ name: Super Heat Source
 health: 999999999
 category: crafting
 heatOutput: 1000000
-warmupRate: 1000
+warmupRate: 1000000
 regionRotated1: 1
 requirements: [
 ]
