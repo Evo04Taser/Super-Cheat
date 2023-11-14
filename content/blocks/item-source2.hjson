@@ -1,9 +1,0 @@
-type: ItemSource
-name: Super Item Source
-health: 2000
-category: distribution
-itemsPerSecond: 2500
-requirements: [
-]
-research: core
-buildTime: 0
