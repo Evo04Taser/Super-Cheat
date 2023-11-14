@@ -1,0 +1,14 @@
+type: Wall
+category: defense
+health: 999999999
+size: 2
+lightningChance: 200
+lightningDamage: 9999999
+lightningLength: 250
+absorbLasers: true
+chanceDeflect: 200
+requirements: [
+]
+research: payload-source2
+
+

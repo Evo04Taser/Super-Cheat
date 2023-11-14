@@ -1,0 +1,20 @@
+type: ShieldWall
+category: defense
+health: 999999999
+armor: 999999999
+shieldHealth: 999999999
+breakCooldown: 1
+regenSpeed: 999999999
+size: 2
+glowColor: 34b514
+lightningChance: 200
+lightningDamage: 99999999
+lightningLength: 250
+absorbLasers: true
+chanceDeflect: 200
+consumesPower: false
+outputsPower: false
+conductivePower: true
+requirements: [
+]
+research: wall
