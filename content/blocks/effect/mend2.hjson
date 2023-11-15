@@ -1,0 +1,9 @@
+type: RegenProjector
+health: 999999999
+size: 3
+healPercent: 200
+range: 999
+requirements: [
+]
+category: effect
+research: mend1

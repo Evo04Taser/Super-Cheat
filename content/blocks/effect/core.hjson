@@ -1,0 +1,15 @@
+type: CoreBlock
+unloadable: true
+hasItems: true 
+size: 5
+health: 99999999
+itemCapacity: 1000000
+canOverdrive: true
+thrusterLength: 10
+requirements: [
+]
+category: effect
+research: core-shard
+buildTime: 0
+unitType: ship
+unitCapModifier: 50

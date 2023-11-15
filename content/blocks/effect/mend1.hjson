@@ -1,0 +1,10 @@
+type: MendProjector
+health: 999999999
+size: 2
+healPercent: 200
+range: 999
+reload: 1
+requirements: [
+]
+category: effect
+research: shield1

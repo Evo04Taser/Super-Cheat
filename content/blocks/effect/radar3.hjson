@@ -1,0 +1,14 @@
+type: LightBlock
+category: effect
+health: 999999999
+size: 1
+absorbLasers: true
+brightness: 1
+radius: 9999
+consumes: {
+}
+requirements: [
+]
+research: wall
+buildVisibility: lightingOnly
+

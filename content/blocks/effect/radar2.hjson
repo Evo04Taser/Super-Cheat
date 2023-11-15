@@ -1,0 +1,15 @@
+type: Radar
+category: effect
+health: 999999999
+size: 1
+absorbLasers: true
+fogRadius: 9999
+discoveryTime: 0
+rotateSpeed: 1
+consumes: {
+}
+requirements: [
+]
+research: wall
+buildVisibility: fogOnly
+

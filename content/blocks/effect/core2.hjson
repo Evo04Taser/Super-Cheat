@@ -1,0 +1,15 @@
+type: CoreBlock
+unloadable: true
+hasItems: true 
+size: 6
+health: 99999999
+itemCapacity: 1000000
+thrusterLength: 12
+incinerateNonBuildable: true
+requirements: [
+]
+category: effect
+research: core-bastion
+buildTime: 0
+unitType: ship2
+unitCapModifier: 50
