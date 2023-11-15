@@ -6,5 +6,5 @@ warmupRate: 1000000
 regionRotated1: 1
 requirements: [
 ]
-research: core2
+research: item-source2
 buildTime: 0
