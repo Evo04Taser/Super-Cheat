@@ -1,0 +1,10 @@
+type: HeatProducer
+health: 999999999
+category: crafting
+heatOutput: 1000000
+warmupRate: 1000000
+regionRotated1: 1
+requirements: [
+]
+research: core2
+buildTime: 0
