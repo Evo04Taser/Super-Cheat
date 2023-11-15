@@ -1,0 +1,8 @@
+type: PayloadSource
+health: 999999999
+size: 5
+category: units
+requirements: [
+]
+research: item-source2
+buildTime: 0

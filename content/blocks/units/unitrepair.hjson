@@ -1,0 +1,12 @@
+type: RepairTower
+health: 999999999
+range: 999
+size: 2
+refreshInterval: 0.01
+healAmount: 999999999
+consumes: {
+}
+requirements: [
+]
+category: units
+research: repair1
