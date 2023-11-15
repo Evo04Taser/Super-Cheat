@@ -1,5 +1,5 @@
 type: GenericCrafter
-health: 2000
+health: 999999999
 category: liquid
 craftTime: 6
 liquidCapacity: 10000
