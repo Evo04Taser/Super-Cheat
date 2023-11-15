@@ -8,7 +8,7 @@ regenSpeed: 999999999
 size: 2
 glowColor: 34b514
 lightningChance: 200
-lightningDamage: 99999999
+lightningDamage: 999999999
 lightningLength: 250
 absorbLasers: true
 chanceDeflect: 200
