@@ -1,0 +1,11 @@
+type: BuildTurret
+buildSpeed: 999
+range: 999
+rotateSpeed: 99
+targetInterval: 1
+size: 3
+health: 999999999
+category: effect
+requirements: [
+]
+research: wall
