@@ -1,0 +1,19 @@
+type: GenericCrafter
+health: 2000
+category: liquid
+craftTime: 6
+liquidCapacity: 10000
+consumes: {
+}
+requirements: [
+]
+research: liquid-source2
+buildTime: 0
+outputLiquids: [
+  arkycite/200
+  cyanogen/200
+  //gallium/200
+  hydrogen/200
+  nitrogen/200
+  ozone/200
+]

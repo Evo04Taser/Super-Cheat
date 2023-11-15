@@ -1,0 +1,7 @@
+type: LiquidSource
+health: 999999999
+category: liquid
+requirements: [
+]
+research: item-source2
+buildTime: 0
