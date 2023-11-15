@@ -9,7 +9,7 @@ incinerateNonBuildable: true
 requirements: [
 ]
 category: effect
-research: core-bastion
+research: core
 buildTime: 0
 unitType: ship2
 unitCapModifier: 50
