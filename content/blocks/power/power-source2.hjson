@@ -1,0 +1,10 @@
+type: PowerSource
+health: 999999999
+category: power
+laserRange: 99
+maxNodes: 9999
+canOverdrive: true
+requirements: [
+]
+research: item-source2
+buildTime: 0
