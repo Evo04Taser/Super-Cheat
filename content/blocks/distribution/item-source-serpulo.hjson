@@ -1,0 +1,21 @@
+type: GenericCrafter
+health: 999999999
+category: distribution
+craftTime: 6
+itemCapacity: 100000
+requirements: [
+]
+research: item-source2
+buildTime: 0
+outputItems: [
+  metaglass/250
+  copper/250
+  lead/250
+  titanium/250
+  graphite/250
+  silicon/250
+  surge-alloy/250
+  phase-fabric/250
+  thorium/250
+  plastanium/250
+]

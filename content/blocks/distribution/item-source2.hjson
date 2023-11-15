@@ -1,0 +1,8 @@
+type: ItemSource
+health: 999999999
+category: distribution
+itemsPerSecond: 2500
+requirements: [
+]
+research: core
+buildTime: 0

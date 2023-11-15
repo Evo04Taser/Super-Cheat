@@ -1,0 +1,24 @@
+type: GenericCrafter
+health: 999999999
+category: distribution
+craftTime: 6
+itemCapacity: 1000000
+consumes: {
+}
+requirements: [
+]
+research: item-source2 
+buildTime: 0
+outputItems: [
+  thorium/250
+  silicon/250
+  graphite/250
+  phase-fabric/250
+  surge-alloy/250
+  beryllium/250
+  carbide/250
+  //dormant-cyst/250
+  //fissile-matter/250
+  oxide/250
+  tungsten/250
+]
